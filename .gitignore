@@ -1,0 +1,19 @@
+node_modules/
+dist/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.env
+.env.local
+.env*
+.DS_Store
+.paul/
+docs/
+gaj.json
+about-me.md
+
+# Python
+.venv/
+__pycache__/
+*.pyc

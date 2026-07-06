@@ -1,0 +1,47 @@
+{
+  "name": "get-a-job",
+  "version": "1.0.0",
+  "description": "Run your entire job search from Claude Code. Investigates every opportunity before you make a move.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "get-a-job": "bin/install.mjs"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "commands",
+    "prompts",
+    "scripts",
+    "SKILL.md",
+    "tsconfig.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mungdungus/get-a-job"
+  },
+  "homepage": "https://github.com/mungdungus/get-a-job",
+  "author": "Christian Martin",
+  "keywords": [
+    "claude-code",
+    "skill",
+    "job-search",
+    "pipeline",
+    "recruiter",
+    "negotiation",
+    "cover-letter",
+    "salary",
+    "triage"
+  ],
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "googleapis": "^144.0.0",
+    "yaml": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0"
+  }
+}

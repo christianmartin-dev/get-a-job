@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Terminal body -->
+  <rect width="1200" height="630" rx="10" ry="10" fill="#1E1E1E"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="38" rx="10" ry="10" fill="#2D2D2D"/>
+  <rect y="28" width="1200" height="10" fill="#2D2D2D"/>
+
+  <!-- Traffic lights -->
+  <circle cx="24" cy="19" r="6.5" fill="#FF5F56"/>
+  <circle cx="44" cy="19" r="6.5" fill="#FFBD2E"/>
+  <circle cx="64" cy="19" r="6.5" fill="#27C93F"/>
+
+  <!-- Title bar label -->
+  <text x="600" y="24" text-anchor="middle" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="13" fill="#9A9A9A">Terminal</text>
+
+  <!-- Line 1: prompt -->
+  <text y="94" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14"><tspan x="24" fill="#CCCCCC">~ </tspan><tspan fill="#4EC965">$</tspan><tspan fill="#CCCCCC"> npx get-a-job</tspan></text>
+
+  <!-- Lines 3-8: banner block letters -->
+  <text y="148" x="24" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14" fill="#D8C7B2" xml:space="preserve">   ██████╗  █████╗      ██╗</text>
+  <text y="170" x="24" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14" fill="#D8C7B2" xml:space="preserve">  ██╔════╝ ██╔══██╗     ██║</text>
+  <text y="192" x="24" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14" fill="#D8C7B2" xml:space="preserve">  ██║  ███╗███████║     ██║</text>
+  <text y="214" x="24" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14" fill="#D8C7B2" xml:space="preserve">  ██║   ██║██╔══██║██   ██║</text>
+  <text y="236" x="24" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14" fill="#D8C7B2" xml:space="preserve">  ╚██████╔╝██║  ██║╚█████╔╝</text>
+  <text y="258" x="24" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14" fill="#D8C7B2" xml:space="preserve">   ╚═════╝ ╚═╝  ╚═╝ ╚════╝</text>
+
+  <!-- Line 10: title and version -->
+  <text y="302" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14"><tspan x="24" fill="#D8C7B2" xml:space="preserve">  Get A Job</tspan><tspan fill="#9A9A9A" xml:space="preserve">  v1.0.0</tspan></text>
+
+  <!-- Line 11: tagline -->
+  <text y="324" x="24" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14" fill="#9A9A9A" xml:space="preserve">  Run your job search from Claude Code.</text>
+
+  <!-- Line 13: installed skills -->
+  <text y="368" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14"><tspan x="24" fill="#4EC965" xml:space="preserve">  &#x2713;</tspan><tspan fill="#CCCCCC"> Installed skills/gaj</tspan></text>
+
+  <!-- Line 14: installed commands -->
+  <text y="390" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14"><tspan x="24" fill="#4EC965" xml:space="preserve">  &#x2713;</tspan><tspan fill="#CCCCCC"> Installed commands/gaj</tspan></text>
+
+  <!-- Line 15: installed dependencies -->
+  <text y="412" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14"><tspan x="24" fill="#4EC965" xml:space="preserve">  &#x2713;</tspan><tspan fill="#CCCCCC"> Installed dependencies</tspan></text>
+
+  <!-- Line 17: done message -->
+  <text y="456" x="24" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14" fill="#CCCCCC" xml:space="preserve">  Done! Run /gaj:help to get started.</text>
+
+  <!-- Line 19: prompt with blinking cursor -->
+  <text y="500" font-family="'SF Mono', Menlo, 'Courier New', monospace" font-size="14"><tspan x="24" fill="#CCCCCC">~ </tspan><tspan fill="#4EC965">$</tspan><tspan fill="#CCCCCC"> </tspan></text>
+
+  <!-- Blinking cursor -->
+  <rect x="62" y="487" width="8" height="16" fill="#CCCCCC">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
