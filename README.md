@@ -2,7 +2,7 @@
   <img src="assets/banner.png" alt="GAJ - Get A Job" width="400">
 </p>
 
-<p align="center">by <a href="https://github.com/mungdungus">Christian Martin</a></p>
+<p align="center">by <a href="https://github.com/christianmartin-dev">Christian Martin</a></p>
 
 Run your entire job search from the terminal. Investigates everything before you make a move.
 
